@@ -12,6 +12,7 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $user = $_POST['user'];
+        echo "<div>$user</div>\n";
     }
     echo "<h1>Hello, PHP!</h1>\n";
     ?>
